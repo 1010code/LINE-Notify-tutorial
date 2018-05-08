@@ -1,4 +1,4 @@
-
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/1010code/LINE-Notify-tutorial/blob/master/LICENSE)
 
 
 ## 流程

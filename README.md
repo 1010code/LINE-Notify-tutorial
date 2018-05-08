@@ -10,15 +10,15 @@
 
 
 ## 教學
-### 建立服務並取得 Client ID
+### 建立服務並取得 Client ID
 使用 LINE 帳號登入成功後右上角點選進入管理登入服務，再來點選登入服務來建立你的服務。
 
 <img src="screenshot/img02.png">
 
-由於目前在本機端測試所以可以先隨意填寫 localhost 端口
+由於目前在本機端測試所以可以先隨意填寫 localhost 端口
 <img src="screenshot/img03.png">
 
-建立完成後就會取得 Client ID
+建立完成後就會取得 Client ID
 <img src="screenshot/img04.png">
 
 ### 用戶登記並取得 code
@@ -56,14 +56,14 @@
 ### 取得 code
 完成後就能開啟網頁點擊按鈕取得 Line Notify code 囉！
 
-<img src="screenshot/img05.png">
-把網址列上所回傳的 code 記住我們之後會拿他來取得權杖(Access Token)。 
+<img src="screenshot/img05.png">
+把網址列上所回傳的 code 記住我們之後會拿他來取得權杖(Access Token)。 
 
 
 ### 取得權杖
 接下來我們使用 [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=zh-TW) 來模擬 POST 取得權杖。
 
-[POST] https://notify-bot.line.me/oauth/token
+[POST] https://notify-bot.line.me/oauth/token
 
 **Body(form-data)**
 |  key  |   value   |
@@ -74,28 +74,28 @@
 | client_id | YOUR CLIENT ID |
 |client_secret| YOUR CLIENT SECRET |
 
-<img src="screenshot/img06.png">
+<img src="screenshot/img06.png">
 
 
 ### 傳送訊息
 取得權杖後就能拿他還傳送訊息囉！
 
-[POST] https://notify-api.line.me/api/notify
+[POST] https://notify-api.line.me/api/notify
 
 **Headers**
 |  key  |   value   |
 | ----- | --------- |
 | Authorization |  Bearer AWHwIf7TzisK019h0m9UVSnEz2nfRTxmQB4edrgFvWz |
 
-<img src="screenshot/img07.png">
+<img src="screenshot/img07.png">
 
 **Body(form-data)**
 |  key  |   value   |
 | ----- | --------- |
 | message |  Hello! |
 
-<img src="screenshot/img08.png">
+<img src="screenshot/img08.png">
 
-<img src="screenshot/img09.png">
+<img src="screenshot/img09.png">
 
-<img src="screenshot/img10.png" width="300">
+<img src="screenshot/img10.png" width="300">

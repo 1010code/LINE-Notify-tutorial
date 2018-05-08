@@ -66,6 +66,7 @@
 [POST] https://notify-bot.line.me/oauth/token
 
 **Body(form-data)**
+
 |  key  |   value   |
 | ----- | --------- |
 | code |  lkaywNuEiYPpfrcVyBCEMg |
@@ -83,6 +84,7 @@
 [POST] https://notify-api.line.me/api/notify
 
 **Headers**
+
 |  key  |   value   |
 | ----- | --------- |
 | Authorization |  Bearer AWHwIf7TzisK019h0m9UVSnEz2nfRTxmQB4edrgFvWz |
@@ -90,6 +92,7 @@
 <img src="screenshot/img07.png">
 
 **Body(form-data)**
+
 |  key  |   value   |
 | ----- | --------- |
 | message |  Hello! |
@@ -98,4 +101,4 @@
 
 <img src="screenshot/img09.png">
 
-<img src="screenshot/img10.png" width="300">
+<img src="screenshot/img10.png" width="350">

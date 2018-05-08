@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tw">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function LineNotify() {
+      var URL = 'https://notify-bot.line.me/oauth/authorize?';
+      URL += 'response_type=code';
+      URL += '&client_id=qNdZpKv9GVGmdPDGgMlXJZ';
+      URL += '&redirect_uri=http://localhost:3000/';
+      URL += '&scope=notify';
+      URL += '&state=NO_STATE';
+      window.location.href = URL;
+    }
+  </script>
+</head>
+
+<body>
+  <button onclick="LineNotify();"> 啟用 LineNotify </button>
+</body>
+
+</html>
+```

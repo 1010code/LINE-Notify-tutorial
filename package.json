@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-line-notify": "^1.0.2"
+  }
+}
